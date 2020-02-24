@@ -14,7 +14,7 @@ h1 { margin: 0px; }
 
 header {
     padding: 3vh;
-    background-color: rgba(43, 3, 39, 0.9);
+    background-color: rgba(41, 24, 0, 0.95);
     color: white;
 }
 
@@ -36,8 +36,8 @@ header a {
 section {
     padding: 3vh;
     
-    background-color: rgba(216, 216, 216, 0.9);
-    color:black;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
 }
 
 
@@ -50,6 +50,6 @@ footer {
     text-align: center;
     font-size: 10pt;
 
-    background-color: rgba(56, 46, 55, 0.8);
+    background-color: rgba(41, 24, 0, 0.95);
     color: white;
 }

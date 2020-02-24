@@ -12,6 +12,8 @@ h1 { margin: 0px; }
 
 
 
+
+
 header {
     padding: 25px;
     background-color: rgba(43, 3, 39, 0.9);
@@ -23,6 +25,7 @@ header span {
     font-size: 12pt;
     font-weight: bold;
 }
+
 header a {
     margin-left: 10px;
     margin-right: 10px;
@@ -33,12 +36,16 @@ header a {
 
 
 
+
+
 .content {
     float: left;
     width: 100vw;
 
-    background-color: rgba(192, 192, 192, 0.9);
-    color:black;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 1pt solid rgb(59, 59, 59);
+    border-bottom: 1pt solid rgb(59, 59, 59);
+    color:white;
 }
 
 
@@ -50,7 +57,7 @@ nav {
     width: 15vw;
     max-height: 80vh;
     
-    background-color: rgba(42, 6, 37, 1);
+    border-right: 1pt solid rgb(59, 59, 59);
     color:white;
 }
 
@@ -69,7 +76,7 @@ aside {
     width: 16vw;
     max-height: 80vh;
     
-    background-color: rgba(42, 6, 37, 1);
+    border-left: 1pt solid rgb(59, 59, 59);
     color:white;
 }
 
@@ -84,7 +91,7 @@ footer {
     text-align: center;
     font-size: 10pt;
 
-    background-color: rgba(56, 46, 55, 0.8);
+    background-color: rgba(43, 3, 39, 0.9);
     color: white;
 }
 
