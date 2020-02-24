@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    font: 13pt Verdana;
+
+    background-image: url('../images/bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h1 { margin: 0px; }
+
+
+
+
+header {
+    padding: 25px;
+    background-color: rgba(43, 3, 39, 0.9);
+    color: white;
+}
+
+header span {
+    margin-right: 50px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+header a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.content {
+    float: left;
+    width: 100vw;
+
+    background-color: rgba(212, 212, 212, 0.8);
+    color:black;
+}
+
+
+aside {
+    float: left;
+    padding: 25px;
+    
+    overflow-y: auto;
+    width: 15vw;
+    
+    background-color: rgba(42, 6, 37, 1);
+    color:white;
+}
+
+
+section {
+    float: left;
+    padding: 25px;
+}
+
+
+
+
+
+
+footer {
+    clear: both;
+    padding: 25px;
+    
+    text-align: center;
+    font-size: 10pt;
+
+    background-color: rgba(56, 46, 55, 0.8);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }  
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+ul {
+    margin-top:5px;
+    margin-bottom:20px;
+}
