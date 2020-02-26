@@ -3,7 +3,7 @@ body {
     margin: auto;
     font: 13pt Verdana;
 
-    background-image: url('../images/bg.jpg');
+    background-image: url('../../images/bg.jpg');
     background-attachment: fixed;
 }
 

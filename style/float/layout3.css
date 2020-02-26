@@ -2,7 +2,7 @@ body {
     margin: 0px;
     font: 13pt Verdana;
 
-    background-image: url('../images/bg.jpg');
+    background-image: url('../../images/bg.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
 }

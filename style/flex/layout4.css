@@ -1,0 +1,179 @@
+body {
+    margin:0px;
+    font: 10pt Verdana;
+    
+
+    background-image: url('../../images/bg.jpg');
+    background-attachment: fixed;
+
+    color: white;
+}
+
+* { box-sizing: border-box;}
+h1 { margin: 0px; }
+ul { padding: 0px; margin: 0px; list-style-type: none;}
+a  {text-decoration: none; color: white; }
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    border-top: 1pt solid rgb(59, 59, 59);
+    border-bottom: 1pt solid rgb(59, 59, 59);
+}
+
+
+header {
+    background-color: rgba(43, 3, 39, 0.9);
+    color: white;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: flex-start;
+
+    min-height: 8vh;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+.siteName {
+    flex-basis: 200px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+.container-content {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav {
+    width: 50vw;
+    overflow-y: auto;
+    height: 84vh;
+    
+    padding: 5vh;
+    
+    border-right: 1pt solid rgb(59, 59, 59);
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+}
+
+nav ul {
+    list-style-type: disc;
+    font-size: .9rem;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+nav ul li ul{
+    list-style-type: square;
+    padding: 10px;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    text-align: justify;
+    padding: 7vh;
+    
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+}
+
+section p {
+    font-size: 10pt;
+    margin-top: 30px;
+    line-height: 1.5em;
+    word-spacing: .1em;
+}
+
+
+aside {
+    direction: rtl;
+    text-align: left;
+
+    width: 45vw;
+    overflow-y: auto;
+    height: 84vh;
+    
+    padding: 5vh;
+    
+    border-right: 1pt solid rgb(59, 59, 59);
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+}
+
+aside ul {
+    direction: ltr;
+
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: .9rem;
+}
+
+aside ul li ol{
+    list-style-type: decimal;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+
+
+
+footer {
+    padding: 3vh;
+    text-align: center;
+    font-size: 10pt;
+
+    background-color: rgba(43, 3, 39, 0.9);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }  
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
